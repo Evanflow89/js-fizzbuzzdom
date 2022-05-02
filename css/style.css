@@ -22,7 +22,9 @@ body {
 
 .items {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .item {
@@ -31,5 +33,16 @@ body {
     text-align: center;
     line-height: 100px;
     background-color: #1389b2;
-    border: 6px solid #083b4c;
+}
+
+.fizz-active {
+    background-color: #0bd6a1;
+}
+
+.buzz-active {
+    background-color: #ffd166;
+}
+
+.fizzBuzz-active {
+    background-color: #f0466f;
 }

@@ -10,15 +10,15 @@ for (let number = 1; number <= 100; number++) {
     element.classList.add("item");
     items.append(element);
     if ((number % 3 == 0) && (number % 5 == 0)) {
-        element.classList.add("item");
+        element.classList.add("item", "fizzBuzz-active");
         element.innerHTML += "fizzbuzz";
         console.log("FizzBuzz");
     } else if (number % 3 == 0) {
-        element.classList.add("item");
+        element.classList.add("item", "fizz-active");
         element.innerHTML += "Fizz";
         console.log("Fizz");
     } else if (number % 5 == 0) {
-        element.classList.add("item");
+        element.classList.add("item", "buzz-active");
         element.innerHTML += "Buzz";
         console.log("Buzz");
     } else {
